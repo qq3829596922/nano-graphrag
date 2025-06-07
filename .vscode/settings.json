@@ -1,0 +1,52 @@
+{
+    "debug.inlineValues": "on",
+    "debug.inlineValues.filterStackFrames": true,
+    "debug.inlineValues.variableTypes": false,
+    "debug.showInlineBreakpointCandidates": false,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.stepIntoTargets": false,
+    "debug.justMyCode": true,
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ],
+    "python.debugging.enableStepIntoTargets": false,
+    "python.debugging.justMyCode": true,
+    "python.debugging.args": [
+        "--skip-first-line-in-pdb",
+        "--dont-trace",
+        "typing",
+        "--dont-trace",
+        "abc",
+        "--dont-trace",
+        "dataclasses",
+        "--dont-trace",
+        "runpy",
+        "--dont-trace",
+        "importlib",
+        "--dont-trace",
+        "collections",
+        "--dont-trace",
+        "threading",
+        "--dont-trace",
+        "asyncio"
+    ],
+    "python.debugging.skipFiles": [
+        "<frozen>",
+        "<__main__>",
+        "**/site-packages/**",
+        "**/runpy.py",
+        "**/importlib/**",
+        "**/typing.py",
+        "**/abc.py",
+        "**/dataclasses.py",
+        "**/collections/**",
+        "**/threading.py",
+        "**/asyncio/**",
+        "**/concurrent/**",
+        "**/multiprocessing/**",
+        "**/urllib/**",
+        "**/json/**",
+        "**/logging/**"
+    ]
+  }

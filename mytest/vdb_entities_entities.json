@@ -1,0 +1,54 @@
+[
+  {
+    "__id__": "ent-3c723400173b4f3b78721bff6f799831",
+    "entity_name": "\"董卓\""
+  },
+  {
+    "__id__": "ent-012f210e165f2e7b01d8de207c191b49",
+    "entity_name": "\"何进\""
+  },
+  {
+    "__id__": "ent-72c96c595e90fc3e49f8efb6cf76be8d",
+    "entity_name": "\"袁绍\""
+  },
+  {
+    "__id__": "ent-f98d2438a48c8130c805faac03997374",
+    "entity_name": "\"袁术\""
+  },
+  {
+    "__id__": "ent-ddf7d35ef679ed90d79312a36215a253",
+    "entity_name": "\"刘协\""
+  },
+  {
+    "__id__": "ent-81ee8873939ee46f59e8002018c01b02",
+    "entity_name": "\"少帝\""
+  },
+  {
+    "__id__": "ent-66cad15e02d0324757abcaf7bb5e8c62",
+    "entity_name": "\"吕布\""
+  },
+  {
+    "__id__": "ent-f7182d66a3007bb14d2724408aa19f75",
+    "entity_name": "\"洛阳\""
+  },
+  {
+    "__id__": "ent-db44eb23e43cb698ef368dd62b52c04e",
+    "entity_name": "\"宦官之祸\""
+  },
+  {
+    "__id__": "ent-4475700ccc75c81b82959ce6fc551545",
+    "entity_name": "\"少帝及陈留王刘协劫持事件\""
+  },
+  {
+    "__id__": "ent-e0470b471523607a6355b206f59d1d25",
+    "entity_name": "\"道歉计划\""
+  },
+  {
+    "__id__": "ent-74d43b773c2039cf6c55ddd305734d96",
+    "entity_name": "\"入宫计划\""
+  },
+  {
+    "__id__": "ent-c92ca0caf3d1394dfead9dae9c16689c",
+    "entity_name": "\"残疾人\""
+  }
+]

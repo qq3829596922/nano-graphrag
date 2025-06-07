@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "🐛 调试 ",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "snippet.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            },
+            "justMyCode": true,
+            "stopOnEntry": false,
+            "rules": [
+                {
+                    "path": "**/asyncio/**",
+                    "include": false
+                },
+                {
+                    "path": "**/site-packages/**",
+                    "include": false
+                }
+            ]
+        }
+    ]
+}

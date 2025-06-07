@@ -1,17 +1,10 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python
 # Edit at https://www.toptal.com/developers/gitignore?templates=python
-test_cache.json
-run_test*.py
-nano_graphrag_cache*/
-*.txt
-examples/benchmarks/fixtures/
-tests/original_workflow.txt
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
-.vscode
 .DS_Store
 # C extensions
 *.so
@@ -130,7 +123,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/

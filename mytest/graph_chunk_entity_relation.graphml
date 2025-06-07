@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;董卓&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"董卓是一位历史上的野心家，在东汉末年权势迅速攀升。他通过计谋和策略，最终控制了洛阳城和中央政权。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;何进&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"何进是汉末的重要将领，然而由于疏忽和被操控而丧命，未能实现其政变计划。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;袁绍&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"袁绍是东汉末年的政治和军事人物，他在何进死后发动冲突，试图完成何进的计划。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+    </node>
+    <node id="&quot;袁术&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"袁术是袁绍的弟弟，也参与进攻宫廷，同样追随何进的计划。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+    </node>
+    <node id="&quot;刘协&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"刘协也就是后来的汉献帝，在此事件中年仅9岁，后来被董卓拥立为皇帝。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;少帝&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"少帝是刘辩，他在混乱中表现得恐惧和无能，最终被董卓废黜。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+    </node>
+    <node id="&quot;吕布&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"吕布是汉末的著名武将，曾在丁原手下，后来投靠了董卓，帮助其巩固权力。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;洛阳&quot;">
+      <data key="d0">"GEO"</data>
+      <data key="d1">"洛阳是当时的首都，董卓通过在此建立营地和军力调动的策略巩固了自己的权势。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;宦官之祸&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"宦官和外戚之间的斗争导致政治动荡，为董卓的上台铺平了道路。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;少帝及陈留王刘协劫持事件&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"宦官劫持少帝刘辩及陈留王刘协的事件，试图逃避袁绍和袁术的进攻造成的危机。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 2}]</data>
+    </node>
+    <node id="&quot;道歉计划&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"由董卓在洛阳通过连续几天的军力调动而进行的策略，使人误以为援军源源不断。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;入宫计划&quot;">
+      <data key="d0">"EVENT"</data>
+      <data key="d1">"何进被“残疾人”骗入宫中最终被杀害的事件。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;残疾人&quot;">
+      <data key="d0">"PERSON"</data>
+      <data key="d1">"促使何进计划失败的人，利用计谋将何进骗入宫中。"</data>
+      <data key="d2">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <edge source="&quot;董卓&quot;" target="&quot;何进&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"董卓在何进死后迅速填补权力真空，利用局势上位。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;董卓&quot;" target="&quot;刘协&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"董卓立刘协为献帝，利用其少帝执政的权力。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;董卓&quot;" target="&quot;吕布&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"吕布在杀掉丁原后归顺董卓，提高了董卓的武力支持。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;董卓&quot;" target="&quot;洛阳&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"洛阳作为首都，是董卓通过军力调动和营地建立获取中央政权的重要地点。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;董卓&quot;" target="&quot;宦官之祸&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"宦官之祸造成的政治真空给了董卓获取权力的机会。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;董卓&quot;" target="&quot;道歉计划&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"董卓通过道歉计划成功获得洛阳的控制权，让其他人误以为他的援军源源不断。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;何进&quot;" target="&quot;残疾人&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"何进被残疾人利用计谋骗杀，在计划中被操控。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;何进&quot;" target="&quot;入宫计划&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"何进计划在入宫后未能成功，反被杀害，导致政变失败。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;宦官之祸&quot;" target="&quot;少帝及陈留王刘协劫持事件&quot;">
+      <data key="d4">7.0</data>
+      <data key="d5">"宦官利用截持少帝进行的事件，加剧了东汉末乱局。"</data>
+      <data key="d6">chunk-48ec5143cb42f5ce38d59c45f49fdd35</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>
