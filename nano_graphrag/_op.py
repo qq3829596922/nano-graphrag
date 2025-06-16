@@ -49,7 +49,6 @@ def chunking_by_token_size(
         # here somehow tricky, since the whole chunk tokens is list[list[list[int]]] for corpus(doc(chunk)),so it can't be decode entirely
         chunk_token = tiktoken_model.decode_batch(chunk_token)
         for i, chunk in enumerate(chunk_token):
-
             results.append(
                 {
                     "tokens": lengths[i],
@@ -58,7 +57,6 @@ def chunking_by_token_size(
                     "full_doc_id": doc_keys[index],
                 }
             )
-
     return results
 
 

@@ -1,0 +1,14 @@
+{
+  "chunk-1e5469be8c20db2a04d5ef66f240b9f3": {
+    "tokens": 290,
+    "content": "人工智能概述\n        \n        人工智能（Artificial Intelligence，AI）是计算机科学的一个重要分支，致力于研究、开发用于模拟、延伸和扩展人的智能的理论、方法、技术及应用系统。\n        \n        AI的发展历程可以追溯到20世纪50年代。1956年，约翰·麦卡锡首次提出了\"人工智能\"这一术语。从那时起，AI经历了多次起伏，包括两次AI寒冬期。\n        \n        机器学习的兴起\n        \n        机器学习（Machine Learning，ML）是AI的一个核心分支，它使计算机能够在没有明确编程的情况下进行学习。机器学习算法通过数据进行训练，能够识别模式并做出预测。\n        \n        深度学习革命\n        \n        深度学习（Deep Learning，DL）是机器学习的一个子领域，基于人工神经网络进行学习。深度学习在图像识别、语音识别、自然语言处理等领域取得了突破性进展。\n        \n        现代AI应用\n        \n        今天的AI技术已经广泛应用于各个领域：搜索引擎、推荐系统、自动驾驶、医疗诊断、金融风控等。ChatGPT等大语言模型的出现，更是将AI技术推向了新的高度。",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-ai-overview"
+  },
+  "chunk-4359c2659c3a51a6ee70349deb26715c": {
+    "tokens": 315,
+    "content": "GraphRAG技术详解\n        \n        GraphRAG（Graph Retrieval-Augmented Generation）是一种创新的RAG架构，它结合了知识图谱和检索增强生成技术。\n        \n        传统RAG的局限性\n        \n        传统的RAG系统主要依赖向量相似度进行检索，这种方法在处理复杂问题时存在局限：\n        1. 难以捕获实体间的复杂关系\n        2. 缺乏全局性的推理能力\n        3. 对于需要多跳推理的问题效果不佳\n        \n        GraphRAG的创新\n        \n        GraphRAG通过构建知识图谱来解决这些问题：\n        - 实体提取：从文档中识别命名实体\n        - 关系提取：挖掘实体间的语义关系\n        - 图谱构建：将实体和关系组织成图结构\n        - 社区检测：发现实体集群和主题\n        \n        查询处理机制\n        \n        GraphRAG支持三种查询模式：\n        1. Local查询：基于局部子图的详细分析\n        2. Global查询：基于社区摘要的全局理解\n        3. Naive查询：传统的向量检索方式\n        \n        技术优势\n        \n        相比传统RAG，GraphRAG具有以下优势：更好的推理能力、更强的可解释性、更准确的答案生成。",
+    "chunk_order_index": 0,
+    "full_doc_id": "doc-graphrag-intro"
+  }
+}

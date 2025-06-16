@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key id="d7" for="edge" attr.name="order" attr.type="long" />
+  <key id="d6" for="edge" attr.name="source_id" attr.type="string" />
+  <key id="d5" for="edge" attr.name="description" attr.type="string" />
+  <key id="d4" for="edge" attr.name="weight" attr.type="double" />
+  <key id="d3" for="node" attr.name="clusters" attr.type="string" />
+  <key id="d2" for="node" attr.name="source_id" attr.type="string" />
+  <key id="d1" for="node" attr.name="description" attr.type="string" />
+  <key id="d0" for="node" attr.name="entity_type" attr.type="string" />
+  <graph edgedefault="undirected">
+    <node id="&quot;机器学习&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"机器学习是一种人工智能技术，通过算法和数据来训练模型。"&lt;SEP&gt;"机器学习是人工智能的一个子领域，涉及计算机自我学习的能力，无需明确编程。"</data>
+      <data key="d2">chunk-3d450783216d57dd9aae226e9178171c&lt;SEP&gt;chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;人工智能&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"人工智能是一项技术领域，旨在模拟和实现人类智能，包括机器学习在内的多种技术。"</data>
+      <data key="d2">chunk-3d450783216d57dd9aae226e9178171c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;计算机&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"计算机是用于执行机器学习算法的设备，具备处理和存储数据的功能。"</data>
+      <data key="d2">chunk-3d450783216d57dd9aae226e9178171c</data>
+      <data key="d3">[{"level": 0, "cluster": 0}]</data>
+    </node>
+    <node id="&quot;深度学习&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"深度学习是机器学习的一个分支，以使用神经网络模拟人脑的工作方式为特征。"</data>
+      <data key="d2">chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;神经网络&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"神经网络是一种计算模型，模仿人类大脑的结构和功能。"</data>
+      <data key="d2">chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;人脑&quot;">
+      <data key="d0">"CONCEPT"</data>
+      <data key="d1">"人脑是人类的神经中枢，深度学习通过神经网络来模拟其工作方式。"</data>
+      <data key="d2">chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d3">[{"level": 0, "cluster": 1}]</data>
+    </node>
+    <node id="&quot;OPENAI&quot;">
+      <data key="d0">"ORGANIZATION"</data>
+      <data key="d1">"OpenAI is a company specializing in artificial intelligence research and has developed the GPT series of models."&lt;SEP&gt;"OpenAI is the organization responsible for developing the AI conversational model, ChatGPT."</data>
+      <data key="d2">chunk-824a8f522743bf6e46158716a77f98e9&lt;SEP&gt;chunk-d1d886abe1d63e72fe4bec6bb133057d</data>
+    </node>
+    <node id="&quot;GPT SERIES MODELS&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"The GPT Series Models are a series of language models developed by OpenAI, known for their capabilities in processing and generating human-like text."</data>
+      <data key="d2">chunk-824a8f522743bf6e46158716a77f98e9</data>
+    </node>
+    <node id="&quot;CHATGPT&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"ChatGPT is an AI conversational model developed by OpenAI, utilizing the GPT architecture."</data>
+      <data key="d2">chunk-d1d886abe1d63e72fe4bec6bb133057d</data>
+    </node>
+    <node id="&quot;GPT&quot;">
+      <data key="d0">"TECHNOLOGY"</data>
+      <data key="d1">"GPT, or Generative Pre-trained Transformer, is the underlying architecture upon which ChatGPT is built, enabling its language understanding capabilities."</data>
+      <data key="d2">chunk-d1d886abe1d63e72fe4bec6bb133057d</data>
+    </node>
+    <edge source="&quot;机器学习&quot;" target="&quot;人工智能&quot;">
+      <data key="d4">18.0</data>
+      <data key="d5">"机器学习是人工智能的一个子领域，与人工智能密切相关。"</data>
+      <data key="d6">chunk-3d450783216d57dd9aae226e9178171c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;机器学习&quot;" target="&quot;计算机&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"机器学习依赖计算机来执行学习算法，使其在没有明确编程的情况下学习。"</data>
+      <data key="d6">chunk-3d450783216d57dd9aae226e9178171c</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;机器学习&quot;" target="&quot;深度学习&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"深度学习是机器学习的一个分支，强调复杂模型的训练。"</data>
+      <data key="d6">chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;深度学习&quot;" target="&quot;神经网络&quot;">
+      <data key="d4">9.0</data>
+      <data key="d5">"深度学习的实现依赖于神经网络技术，用于模拟人脑工作方式。"</data>
+      <data key="d6">chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;神经网络&quot;" target="&quot;人脑&quot;">
+      <data key="d4">8.0</data>
+      <data key="d5">"神经网络用于模拟人脑的结构和功用，是深度学习模型的基础。"</data>
+      <data key="d6">chunk-3991a9e4a24ac94c3acb28d856a5073d</data>
+      <data key="d7">1</data>
+    </edge>
+    <edge source="&quot;OPENAI&quot;" target="&quot;CHATGPT&quot;">
+      <data key="d4">10.0</data>
+      <data key="d5">"ChatGPT was developed by OpenAI, indicating a direct relationship between the AI model and the organization."</data>
+      <data key="d6">chunk-d1d886abe1d63e72fe4bec6bb133057d</data>
+      <data key="d7">1</data>
+    </edge>
+  </graph>
+</graphml>
